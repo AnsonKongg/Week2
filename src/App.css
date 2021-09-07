@@ -1,0 +1,57 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem {
+  width: 40vw;
+  height: 8vh;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.listIcon {
+  /* visibility: hidden; */
+  /* text-align: center; */
+  padding-left: 10px;
+}
+
+.listItem:hover .listIcon {
+  visibility: visible;
+}
+
+.list-symbol {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 23px;
+}
+
+.list-number-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.list-current {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: end;
+}
+.list-change {
+  font-size: 12px;
+}
+
