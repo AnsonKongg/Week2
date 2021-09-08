@@ -38,7 +38,7 @@ class StockListClass extends React.Component {
         this._fetchStockList()
         this.timer = setInterval(() => {
             this._fetchStockList()
-        }, 10000)
+        }, 60000)
     }
     componentDidUpdate(prevProps) {
         if (prevProps.type !== this.props.type) {

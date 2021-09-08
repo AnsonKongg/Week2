@@ -34,7 +34,7 @@ const StockListFunction = (props) => {
         // Set up timer automatically fetch Stock List
         timer = setInterval(() => {
             _fetchStockList()
-        }, 10000)
+        }, 60000)
         return () => {
             if (timer) {
                 clearInterval(timer);
